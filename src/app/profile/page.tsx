@@ -5,7 +5,7 @@ import Header from "@/components/header.component";
 export default async function Profile() {
   const session = await getServerSession(authOptions);
   const user = session?.user;
-  // console.log(user);
+  console.log(user);
   return (
     <>
       <Header />
